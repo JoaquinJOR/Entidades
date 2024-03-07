@@ -18,4 +18,8 @@ public class Sugerencia {
     @ManyToOne
     @JoinColumn(name = "id_usuario", nullable = false)
     private Usuario usuarios;
+    public static Object builder() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'builder'");
+    }
 }
